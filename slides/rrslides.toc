@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\beamer@subsectionintoc {1}{1}{What is RR?}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Why should we care about RR?}{8}{0}{1}
+\beamer@subsectionintoc {1}{3}{Motivating Examples}{18}{0}{1}
+\beamer@sectionintoc {2}{Tools For RR}{25}{0}{2}
+\beamer@subsectionintoc {2}{1}{\LaTeX }{25}{0}{2}
+\beamer@subsectionintoc {2}{2}{\texttt {R}}{30}{0}{2}
+\beamer@subsectionintoc {2}{3}{Dynamic Documents with \texttt {knitr}}{31}{0}{2}
+\beamer@subsectionintoc {2}{4}{Version Control with GitHub}{38}{0}{2}
+\beamer@sectionintoc {3}{Is the juice worth the squeeze?}{45}{0}{3}
+\beamer@subsectionintoc {3}{1}{Journals}{45}{0}{3}
+\beamer@subsectionintoc {3}{2}{CRAN}{48}{0}{3}
+\beamer@subsectionintoc {3}{3}{Summary}{50}{0}{3}
+\beamer@subsectionintoc {3}{4}{References}{51}{0}{3}

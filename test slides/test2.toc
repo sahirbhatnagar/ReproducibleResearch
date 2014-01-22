@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{What is \LaTeX ?}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{\LaTeX \tmspace +\thinmuskip {.1667em} vs. Word}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Advantages}{8}{0}{1}
+\beamer@subsectionintoc {1}{4}{History}{9}{0}{1}
+\beamer@sectionintoc {2}{References}{10}{0}{2}

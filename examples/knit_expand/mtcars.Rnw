@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage{floatrow}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=red}
+\title{Using knit\_expand() for templates}
+\author{Sahir}
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+<< include=FALSE >>=
+require(ggplot2);require(xtable);require(arm) # load packages
+@
+
+<<lm-mtcars, tidy.opts=list(width.cutoff=55), echo=FALSE, warning=FALSE>>=
+# combination of covariates to be used in model
+vars <- combn(names(mtcars)[-1], 8)
+
+# apply knit_expand to each combination
+src <- mapply(knit_expand, file = "template.Rnw", x1 = vars[1, ], x2 = vars[2, ], x3 = vars[3, ], 
+              x4 = vars[4, ], x5 = vars[5, ], x6 = vars[6, ], x7 = vars[7, ], x8 = vars[8, ], 
+              i=seq_len(ncol(vars)))
+@
+
+\Sexpr{ knit(text = unlist(src)) }
+
+
+\end{document}
+

@@ -1,0 +1,16 @@
+The first element of \texttt{x} is 0.145. Boring boxplots
+and histograms recorded by the PDF device:
+
+\begin{knitrout}\footnotesize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{## two plots side by side (option fig.show='hold')}
+\hlkwd{boxplot}\hlstd{(x)}
+\hlkwd{hist}\hlstd{(x,} \hlkwc{main} \hlstd{=} \hlstr{""}\hlstd{)}
+\end{alltt}
+\end{kframe}
+\includegraphics[width=.45\linewidth]{figure/boring-plots1}
+\includegraphics[width=.45\linewidth]{figure/boring-plots2}
+
+\end{knitrout}
+

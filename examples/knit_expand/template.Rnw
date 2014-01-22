@@ -1,0 +1,18 @@
+\section{Regression of mpg against {{x1}}, {{x2}}, {{x3}}, {{x4}}, {{x5}}, {{x6}}, {{x7}} and {{x8}} }
+<<lm-{{x1}}-{{x2}}-{{x3}}-{{x4}}-{{x5}}-{{x6}}-{{x7}}-{{x8}}, fig.align='center', fig.keep='last', echo=FALSE>>=
+fit{{i}} <- lm(mpg ~ {{x1}} + {{x2}} + {{x3}} + {{x4}} + {{x5}} + {{x6}} + {{x7}} + {{x8}}, data = mtcars)
+layout(matrix(c(1,2,3,4), ncol=2, byrow=TRUE),heights = c(0.4,0.4,0.2))
+par(mai=rep(0.5, 4))
+plot(fit{{i}})
+@
+
+
+<< echo=FALSE, results='asis' >>=
+print(xtable(coef(summary(fit{{i}})), floating = FALSE))
+@
+
+
+The standard error of the model is \Sexpr{sigma.hat(fit{{i}})}
+
+\newpage
+

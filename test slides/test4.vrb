@@ -1,0 +1,39 @@
+\frametitle {A powerful Typesetting system}
+
+\begin{columns}[c] % The "c" option specifies centered vertical alignment while the "t" option is used for top vertical alignment
+
+\column{.25\textwidth} % Left column and width
+{\tiny
+\begin{verbatim}
+A \textbf{bold
+\textit{Hello \LaTeX}}
+to start!
+\end{verbatim}
+}
+A \textbf{bold \textit{Hello \LaTeX}} to start !
+
+{\tiny
+\begin{verbatim}
+Odds=$\left(\frac{\pi}{1-\pi}
+\right)$
+\end{verbatim}
+}
+
+Odds=$\left( \frac{\pi}{1-\pi} \right) $
+
+
+
+
+\column{.7\textwidth} % Right column and width
+\small
+\begin{enumerate}
+%\item Used for producing scientific and mathematical documents
+\item Input for \LaTeX \, is composed in plain \texttt{ASCII} using a text editor
+%\item Unike Word, \LaTeX\, \textbf{\textit{is not}} What you see is what you get (WYSIWYG)
+\item Although Word is useful for writing very short and simple documents, it becomes too complex or even unusable for more complicated tasks
+\item Commonly needed features, like user-customized automated numbering or various automated indexes, cannot be created using Word at all
+\item \LaTeX \,does require more effort and time to learn to use even for simpler tasks, but once learned, difficult tasks can be accomplished rather easily and straightforwardly
+\end{enumerate}
+
+\end{columns}
+

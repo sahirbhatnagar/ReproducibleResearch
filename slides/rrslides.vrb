@@ -1,0 +1,24 @@
+\frametitle {The possibilities are endless}
+
+\textcolor{blue}{Pros}
+
+\begin{itemize}
+\item Highly customizable for \href{run:../examples/knit_expand/mtcars.Rnw}{\underline{\textcolor{blue}{ repetitive}}}  \href{run:../examples/knit_expand/template.Rnw}{\underline{\textcolor{blue}{ tasks}}}
+\item Easily extendible to \href{run:../examples/markdown/mwe.Rmd}{\underline{\textcolor{blue}{ Markdown documents}}} (Gruber 2004)
+\item Interactive presentations via \href{http://sahirbhatnagar.github.io/RR}{\underline{\textcolor{blue}{ \texttt{Slidify}}}} (Vaidyanathan 2013)
+\item Interactive \href{run:../examples/shiny/prostate.R}{\underline{\textcolor{blue}{ web applications}}} to present results
+\item Avoids error prone copy-paste
+\item Ensures reproducibility
+\item Allows for caching (think big data)
+\item You can focus more time on methods and analysis
+\end{itemize}
+
+\pause
+
+\textcolor{blue}{Cons}
+
+\begin{itemize}
+\item Brute force brings us instant gratification
+\end{itemize}
+
+

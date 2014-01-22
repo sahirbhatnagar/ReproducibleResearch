@@ -1,0 +1,30 @@
+\par 
+
+\begin{knitrout}\footnotesize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcom{# create some random numbers}
+\hlstd{(x} \hlkwb{=} \hlkwd{rnorm}\hlstd{(}\hlnum{20}\hlstd{))}
+\end{alltt}
+\begin{verbatim}
+##  [1]  0.14496  0.43832  0.15319  1.08494  1.99954 -0.81188
+##  [7]  0.16027  0.58589  0.36009 -0.02531  0.15088  0.11008
+## [13]  1.35968 -0.32699 -0.71638  1.80977  0.50840 -0.52746
+## [19]  0.13272 -0.15594
+\end{verbatim}
+\begin{alltt}
+\hlkwd{mean}\hlstd{(x)}
+\end{alltt}
+\begin{verbatim}
+## [1] 0.3217
+\end{verbatim}
+\begin{alltt}
+\hlkwd{var}\hlstd{(x)}
+\end{alltt}
+\begin{verbatim}
+## [1] 0.5715
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+

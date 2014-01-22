@@ -1,0 +1,50 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{{Mar}12}
+
+\bibitem[{All}99]{allin}
+{Allin Cottrell}, \emph{Word processors: Stupid and inefficient},
+  \url{http://ricardo.ecn.wfu.edu/~cottrell/wp.html}, 1999.
+
+\bibitem[{And}]{online}
+{Andrew Roberts}, \emph{Online tutorials},
+  \url{http://www.andy-roberts.net/writing/latex}.
+
+\bibitem[{CTA}]{ctan}
+{CTAN}, \emph{Comprehensive tex archive network},
+  \url{http://www.ctan.org/tex/}.
+
+\bibitem[{LaT}]{latexdocs}
+{LaTeX Project}, \emph{Latex documentation},
+  \url{http://latex-project.org/guides/}.
+
+\bibitem[{Les}94]{lamport}
+{Leslie Lamport}, \emph{Latex: A document preparation system}, Addison-Wesley,
+  Reading, Massachusetts, second edition, 1994.
+
+\bibitem[{Mar}12]{pinteric}
+{Marko Pinteric}, \emph{Using latex on windows},
+  \url{http://www.pinteric.com/miktex.html}, 2012.
+
+\bibitem[{Mic}]{gentle}
+{Michael Doob}, \emph{A gentle introduction to tex},
+  \url{http://texdoc.net/texmf-dist/doc/plain/gentle/gentle.pdf}.
+
+\bibitem[{Mic}02]{ams}
+{Michael Downes}, \emph{Tex and {L}atex2e}, NOTICES OF THE AMS, Volume 49,
+  Number 11 (December 2002).
+
+\bibitem[{Ope}]{spellcheck}
+{Open Office}, \emph{Canadian english spell checker download},
+  \url{http://extensions.services.openoffice.org/en/download/1335}.
+
+\bibitem[{Tob}]{short}
+{Tobias Oetiker}, \emph{The not so short introduction to latex2e},
+  \url{http://ctan.tug.org/tex-archive/info/lshort/english/lshort.pdf}.
+
+\end{thebibliography}
