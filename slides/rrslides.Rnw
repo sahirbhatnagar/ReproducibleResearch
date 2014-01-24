@@ -280,7 +280,7 @@ set.seed(1121)   # make the results repeatable
 
 \pause
 \begin{enumerate}
-\item Non-disclosure of \underline{          .}
+\item Non-disclosure of ...
 \item Not a requirement for journal submission
 \item Copy-paste and GUI interaction
 \item Lack of tools
@@ -515,7 +515,7 @@ abline(fit, lwd=2)
 \begin{itemize}
 
 \item What if the dataset changes? 
-\item \href{run:./finalv2.pdf}{\underline{\textcolor{blue}{ What if one observation was wrong?}}}
+\item \href{https://github.com/sahirbhatnagar/ReproducibleResearch/blob/master/slides/finalv2.pdf}{\underline{\textcolor{blue}{ What if one observation was wrong?}}}
 
 \end{itemize}
 
@@ -580,10 +580,10 @@ lines(density(x),col="red")
 \textcolor{blue}{Pros}
 
 \begin{itemize}
-\item Highly customizable for \href{run:../examples/knit_expand/mtcars.Rnw}{\underline{\textcolor{blue}{ repetitive}}}  \href{run:../examples/knit_expand/template.Rnw}{\underline{\textcolor{blue}{ tasks}}}
-\item Easily extendible to \href{run:../examples/markdown/mwe.Rmd}{\underline{\textcolor{blue}{ Markdown documents}}} (Gruber 2004) 
+\item Highly customizable for \href{https://github.com/sahirbhatnagar/ReproducibleResearch/blob/master/examples/knit_expand/mtcars.Rnw}{\underline{\textcolor{blue}{ repetitive}}}  \href{https://github.com/sahirbhatnagar/ReproducibleResearch/blob/master/examples/knit_expand/template.Rnw}{\underline{\textcolor{blue}{ tasks}}}
+\item Easily extendible to \href{https://github.com/sahirbhatnagar/ReproducibleResearch/blob/master/examples/markdown/mwe.Rmd}{\underline{\textcolor{blue}{ Markdown documents}}} (Gruber 2004) 
 \item Interactive presentations via \href{http://sahirbhatnagar.github.io/RR}{\underline{\textcolor{blue}{ \texttt{Slidify}}}} (Vaidyanathan 2013)
-\item Interactive \href{run:../examples/shiny/prostate.R}{\underline{\textcolor{blue}{ web applications}}} to present results
+\item Interactive \href{https://github.com/sahirbhatnagar/prostate}{\underline{\textcolor{blue}{ web applications}}} to present results
 \item Avoids error prone copy-paste
 \item Ensures reproducibility
 \item Allows for caching (think big data)
@@ -830,8 +830,32 @@ data\_analysis\_and\_cleaning\_v2.R
 
 \lyxframeend{}\subsection{Summary}
 
+
+\begin{frame}[c]
+\frametitle{The Main Idea}
+
+\begin{center}
+\begin{block}{Jon Claerbout, Geophysicist at Stanford, (1995)}
+\emph{``An article about computational science in a scientific publication is \textbf{not} the scholarship itself, it is merely \textbf{advertising} of the scholarship. The actual scholarship is the \textbf{complete software development environment} and the \textbf{complete set of instructions} which generated the figures''}
+\end{block}
+\end{center}
+
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
 \begin{frame}
-\frametitle{If you could only take away one thing from today's talk...}
+\frametitle{If you can only take away one thing from today's discussion...}
 
 \[ \textrm{Reproducibility} \propto \frac{1}{\textrm{copy paste}}  \]
 
@@ -850,6 +874,13 @@ data\_analysis\_and\_cleaning\_v2.R
 \frametitle<presentation>{References}    
 \bibliographystyle{amsalpha}
 \nocite{ams}
+\nocite{laine}
+\nocite{peng}
+\nocite{ny}
+\nocite{london}
+\nocite{gandrud}
+\nocite{yihui}
+
 \bibliography{biblio.bib}
 %\bibliography{biblio.bib}
 \end{frame}

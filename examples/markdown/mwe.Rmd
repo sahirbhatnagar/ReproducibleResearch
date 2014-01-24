@@ -10,7 +10,7 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 
 ```{r}
 1+1
-.4-.7+.3 # what? it is not zero!
+.4-.7+.3 # what? it is not zero!l
 ```
 
 ## graphics

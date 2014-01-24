@@ -4,13 +4,6 @@ A quote:
 
 > Markdown is not LaTeX.
 
-To compile me, run this in R:
-
-    library(knitr)
-    knit('001-minimal.Rmd')
-
-See [output here](https://github.com/yihui/knitr-examples/blob/master/001-minimal.md).
-
 ## code chunks
 
 A _paragraph_ here. A code chunk below (remember the three backticks):
@@ -25,7 +18,7 @@ A _paragraph_ here. A code chunk below (remember the three backticks):
 ```
 
 ```r
-0.4 - 0.7 + 0.3  # what? it is not zero!
+0.4 - 0.7 + 0.3  # what? it is not zero!l
 ```
 
 ```

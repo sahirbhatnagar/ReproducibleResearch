@@ -3,10 +3,10 @@
 \textcolor{blue}{Pros}
 
 \begin{itemize}
-\item Highly customizable for \href{run:../examples/knit_expand/mtcars.Rnw}{\underline{\textcolor{blue}{ repetitive}}}  \href{run:../examples/knit_expand/template.Rnw}{\underline{\textcolor{blue}{ tasks}}}
-\item Easily extendible to \href{run:../examples/markdown/mwe.Rmd}{\underline{\textcolor{blue}{ Markdown documents}}} (Gruber 2004)
+\item Highly customizable for \href{https://github.com/sahirbhatnagar/ReproducibleResearch/blob/master/examples/knit_expand/mtcars.Rnw}{\underline{\textcolor{blue}{ repetitive}}}  \href{https://github.com/sahirbhatnagar/ReproducibleResearch/blob/master/examples/knit_expand/template.Rnw}{\underline{\textcolor{blue}{ tasks}}}
+\item Easily extendible to \href{https://github.com/sahirbhatnagar/ReproducibleResearch/blob/master/examples/markdown/mwe.Rmd}{\underline{\textcolor{blue}{ Markdown documents}}} (Gruber 2004)
 \item Interactive presentations via \href{http://sahirbhatnagar.github.io/RR}{\underline{\textcolor{blue}{ \texttt{Slidify}}}} (Vaidyanathan 2013)
-\item Interactive \href{run:../examples/shiny/prostate.R}{\underline{\textcolor{blue}{ web applications}}} to present results
+\item Interactive \href{https://github.com/sahirbhatnagar/prostate}{\underline{\textcolor{blue}{ web applications}}} to present results
 \item Avoids error prone copy-paste
 \item Ensures reproducibility
 \item Allows for caching (think big data)

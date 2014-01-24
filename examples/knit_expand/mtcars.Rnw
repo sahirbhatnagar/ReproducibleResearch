@@ -27,6 +27,14 @@ src <- mapply(knit_expand, file = "template.Rnw", x1 = vars[1, ], x2 = vars[2, ]
 
 \Sexpr{ knit(text = unlist(src)) }
 
+%jflekjfklejflekj
+#jlkjkjlkhlkh
+
+<<>>=
+
+@
+
+
 
 \end{document}
 

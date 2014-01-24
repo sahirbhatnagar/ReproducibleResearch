@@ -12,4 +12,4 @@
 \beamer@subsectionintoc {3}{1}{Journals}{45}{0}{3}
 \beamer@subsectionintoc {3}{2}{CRAN}{48}{0}{3}
 \beamer@subsectionintoc {3}{3}{Summary}{50}{0}{3}
-\beamer@subsectionintoc {3}{4}{References}{51}{0}{3}
+\beamer@subsectionintoc {3}{4}{References}{52}{0}{3}
